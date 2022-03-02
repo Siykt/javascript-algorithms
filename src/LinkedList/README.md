@@ -50,7 +50,7 @@
 
 详细参见: [21. 合并两个有序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
 
-算法实现: `examples/MergeTwoSortedLists.ts`
+算法实现: [examples/MergeTwoSortedLists.ts](./examples/MergeTwoSortedLists.ts)
 
 ### 有序链表的去重算法
 
@@ -58,4 +58,4 @@
 
 详细参见: [83. 删除排序链表中的重复元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 
-算法实现: `examples/DeleteDuplicates.ts`
+算法实现: [examples/DeleteDuplicates.ts](./examples/DeleteDuplicates.ts)
