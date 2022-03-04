@@ -59,3 +59,11 @@
 详细参见: [83. 删除排序链表中的重复元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 
 算法实现: [examples/DeleteDuplicates.ts](./examples/DeleteDuplicates.ts)
+
+### 两个链表的两数相加
+
+合并两个链表将其值域相加并返回为一个新的链表
+
+详细参见: [2. 两数相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-two-numbers/))
+
+算法实现: [examples/AddTwoNumbers.ts](./examples/AddTwoNumbers.ts)
