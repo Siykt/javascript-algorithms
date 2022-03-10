@@ -67,3 +67,11 @@
 详细参见: [2. 两数相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-two-numbers/))
 
 算法实现: [examples/AddTwoNumbers.ts](./examples/AddTwoNumbers.ts)
+
+### 删除链表的倒数第 N 个结点
+
+删除链表的倒数第 N 个结点并且返回链表的头结点
+
+详细参见: [19. 删除链表的倒数第 N 个结点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/))
+
+算法实现: [examples/RemoveNthNodeFromEndOfList.ts](./examples/RemoveNthNodeFromEndOfList.ts)
