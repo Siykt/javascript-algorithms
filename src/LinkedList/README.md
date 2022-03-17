@@ -75,3 +75,11 @@
 详细参见: [19. 删除链表的倒数第 N 个结点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/))
 
 算法实现: [examples/RemoveNthNodeFromEndOfList.ts](./examples/RemoveNthNodeFromEndOfList.ts)
+
+### 反转链表
+
+给你单链表的头节点 head, 请你反转链表, 并返回反转后的链表
+
+详细参见: [206. 反转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list/))
+
+算法实现: [examples/ReverseLinkedList.ts](./examples/ReverseLinkedList.ts)
