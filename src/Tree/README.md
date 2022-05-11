@@ -110,3 +110,17 @@
 详细参见: [102. 二叉树的层序遍历 - 力扣（LeetCode）](https://leetcode.cn/problems/binary-tree-level-order-traversal/))
 
 算法实现: [examples/LevelOrder.ts](./examples/LevelOrder.ts)
+
+### 算法实例
+
+> 没有实例的数据结构都是空洞且乏味的
+
+#### 二叉树的最大深度
+
+给定一个二叉树, 找出其最大深度
+
+二叉树的深度为根节点到最远叶子节点的最长路径上的节点数
+
+详细参见: [104. 二叉树的最大深度 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)
+
+算法实现: [examples/MaxDepth.ts](./examples/MaxDepth.ts)
