@@ -6,7 +6,7 @@ type List = (number | null)[] | null
  * 将一个非空的数组根据层序的方式转换为一个树
  * @param list 要转换的列表
  */
-export function listToTree(list: List): TreeNode | null {
+export function listToTreeByLevelOrder(list: List): TreeNode | null {
   if (list === null || list[0] === null || list[0] === undefined) {
     return null
   }
