@@ -6,6 +6,6 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
-    'sort-imports': ['error', { ignoreCase: true }],
+    'sort-imports': ['error', { ignoreCase: true, ignoreDeclarationSort: true }],
   },
 }
