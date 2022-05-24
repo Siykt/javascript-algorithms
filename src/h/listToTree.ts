@@ -58,7 +58,7 @@ export function listToTreeByEffectiveNode(list: List): TreeNode | null {
   // 创建根节点
   const root = new TreeNode(list.shift() as number)
   // 使用一个栈来记录当前节点的子节点
-  const nodeList: (TreeNode | null)[] = [root]
+  const nodeList: TreeNode[] = [root]
   while (nodeList.length) {
     // 取出栈顶元素
     const curNode = nodeList.shift() as TreeNode
