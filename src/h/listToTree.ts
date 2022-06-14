@@ -3,7 +3,7 @@ import { TreeNode } from '../Tree/TreeNode'
 type List = (number | null)[] | null
 
 /**
- * 将一个非空的数组根据层序的方式转换为一个树
+ * 将一个非空的数组根据层序的方式转换为一个树(BFS)
  * @param list 要转换的列表
  */
 export function listToTreeByLevelOrder(list: List): TreeNode | null {
@@ -46,7 +46,7 @@ export function listToTreeByLevelOrder(list: List): TreeNode | null {
 }
 
 /**
- * 将一个非空的数组根据有效元素的方式转换为一个树
+ * 将一个非空的数组根据有效元素的方式转换为一个树(BFS)
  * @param list 要转换的列表
  */
 export function listToTreeByEffectiveNode(list: List): TreeNode | null {
