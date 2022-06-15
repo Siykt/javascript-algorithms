@@ -121,6 +121,8 @@
 
 二叉树的深度为根节点到最远叶子节点的最长路径上的节点数
 
+同理可得计算最深 DOM 节点树的深度的实现
+
 详细参见: [104. 二叉树的最大深度 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)
 
 算法实现: [examples/MaxDepth.ts](./examples/MaxDepth.ts)

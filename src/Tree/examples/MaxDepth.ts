@@ -40,3 +40,15 @@ export function maxDepthUseDecomposition(root: TreeNode | null): number {
   // 比较它们并加上根节点
   return Math.max(leftMaxDepth, rightMaxDepth) + 1
 }
+
+/**
+ * 计算最深 DOM 节点树的深度
+ * @param root 根节点
+ */
+export function maxDepthForElement(root: Element): number {
+  if (!root.children.length) {
+    return 0
+  }
+  // 比较它们并加上根节点
+  return Math.max(...[...root.children].map((children) => maxDepthForElement(children))) + 1
+}
