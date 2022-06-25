@@ -24,3 +24,9 @@
 算法实现: [insertionSort.ts](./insertionSort.ts)
 
 可以看出来插入排序还是比较直观好理解的, 而且是稳定的.
+
+### 参考
+
+[1.3 插入排序- 菜鸟教程](https://www.runoob.com/w3cnote/insertion-sort.html)
+
+![](https://www.runoob.com/wp-content/uploads/2019/03/insertionSort.gif)
