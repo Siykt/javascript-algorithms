@@ -29,6 +29,7 @@ export default class LRU<Data = any> {
     // 缓存容量
     private capacity: number,
   ) {
+    if (capacity <= 0) throw TypeError('无效容量')
     this.head.next = this.tail
     this.tail.pre = this.head
   }
@@ -78,7 +79,7 @@ export default class LRU<Data = any> {
   }
 
   /**
-   * 将结点移动到链表末端
+   * 将结点移动到tail
    * @param node 节点
    * @returns
    */
@@ -92,6 +93,10 @@ export default class LRU<Data = any> {
     // 插入node至tail
     this.tail.next = node
     node.pre = this.tail
+    // 更新head
+    if (this.tail.pre?.key === '__head__') {
+      this.head = node
+    }
     // 更新tail
     this.tail = node
   }
