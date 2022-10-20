@@ -10,4 +10,5 @@
 
 ## 算法基础
 
-1. [排序算法](./src/sort/README.md)
+1. [排序算法](./src/algorithms/sort/README.md)
+2. [缓存算法](./src/algorithms/cache/README.md)
