@@ -2,7 +2,22 @@
 
 了解排序法是学习算法的必经之路. 所谓排序法, 就是将一堆没有排序过的数字由小到大 (或大到小) 排列好的算法
 
-大致了解何谓排序法后, 就让我们先来了解最简单的排序法: 插入排序
+用一张图概括：
+
+![](http://filebed.xxlsjfx.com/osx/1666274790570.png1666274790533.png)
+
+## 算法实现
+
+- [x] 插入排序 [insertionSort.ts](./insertionSort.ts)
+- [x] 冒泡排序 [bubbleSort.ts](./bubbleSort.ts)
+- [ ] 选择排序
+- [ ] 希尔排序
+- [ ] 归并排序
+- [ ] 快速排序
+- [ ] 堆排序
+- [ ] 计数排序
+- [ ] 桶排序
+- [ ] 基数排序
 
 ## 插入排序 (Insertion Sort)
 
@@ -21,15 +36,15 @@
     1. 从 [未排序好的数字] 取出第一个与 [已排序好的数字] 比较
     2. 如果 [已排序好的数字] 大于 [未排序好的数字], 则将 [已排序好的数字] 后移一位, 否则直接插入
 
-算法实现: [insertionSort.ts](./insertionSort.ts)
+### 动图演示
+
+![](http://filebed.xxlsjfx.com/osx/1666274640047.gifbubbleSort.gif)
 
 可以看出来插入排序还是比较直观好理解的, 而且是稳定的.
 
 ### 参考
 
 [1.3 插入排序- 菜鸟教程](https://www.runoob.com/w3cnote/insertion-sort.html)
-
-![](https://www.runoob.com/wp-content/uploads/2019/03/insertionSort.gif)
 
 ## 冒泡排序
 
@@ -47,4 +62,6 @@
 
 > 暴力美学!!!
 
-算法实现: [bubbleSort.ts](./bubbleSort.ts)
+### 动图演示
+
+![](http://filebed.xxlsjfx.com/osx/1666274640047.gifbubbleSort.gif)
