@@ -1,6 +1,6 @@
 import { selectionSort } from './selectionSort'
 
-describe('冒泡排序', () => {
+describe('选择排序', () => {
   test('输入: [1, 5, 2, 4, 3]', () => {
     expect(selectionSort([1, 5, 2, 4, 3])).toEqual([1, 2, 3, 4, 5])
   })
