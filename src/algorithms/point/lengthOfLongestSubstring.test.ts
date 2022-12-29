@@ -1,7 +1,6 @@
 import { lengthOfLongestSubstring } from './lengthOfLongestSubstring'
 
 describe('无重复字符的最长子串', () => {
-  lengthOfLongestSubstring
   test('abcabcbb', () => {
     expect(lengthOfLongestSubstring('abcabcbb')).toBe(3)
   })
