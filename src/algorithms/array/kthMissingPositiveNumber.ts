@@ -13,11 +13,11 @@ export function kthMissingPositiveNumberByAC(arr: number[], k: number): number {
   let min = 0
   for (const n of arr) {
     // 与上一位的差值并排除自己的位置
-    k -= n - min - 1
+    const temp = k - (n - min - 1)
+    if (temp <= 0) break
+    k = temp
     min = n
-    if (k <= 0) break
   }
-  k = k > 0 ? k : k - 1
   // 最后获得的数字排除自己的位置加上k的偏移
   return min + k
 }
