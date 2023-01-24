@@ -7,8 +7,7 @@ export function queriesOnNumberOfPointsInsideACircle(points: number[][], queries
   // 思路: 枚举
   // 求圆形面积, 计算点是否在圆内
 
-  const ans = []
-  for (const [qx, qy, r] of queries) {
+  return queries.map(([qx, qy, r]) => {
     let cnt = 0
     for (const [px, py] of points) {
       const dx = px - qx
@@ -16,7 +15,6 @@ export function queriesOnNumberOfPointsInsideACircle(points: number[][], queries
       // 计算是否在圆内
       if (dx * dx + dy * dy <= r * r) cnt++
     }
-    ans.push(cnt)
-  }
-  return ans
+    return cnt
+  })
 }
