@@ -126,3 +126,83 @@
 详细参见: [104. 二叉树的最大深度 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)
 
 算法实现: [examples/MaxDepth.ts](./examples/MaxDepth.ts)
+
+#### 98. 验证二叉搜索树
+
+给你一个二叉树的根节点 root , 判断其是否是一个有效的二叉搜索树
+
+有效 二叉搜索树定义如下：
+
+- 节点的左子树只包含 小于 当前节点的数
+- 节点的右子树只包含 大于 当前节点的数
+- 所有左子树和右子树自身必须也是二叉搜索树
+
+详细参见: [98. 验证二叉搜索树 - 力扣（LeetCode）](https://leetcode.cn/problems/validate-binary-search-tree/)
+
+算法实现: [examples/validateBinarySearchTree.ts](./examples/validateBinarySearchTree.ts)
+
+#### 101. 对称二叉树
+
+给你一个二叉树的根节点 root , 检查它是否轴对称
+
+详细参见: [101. 对称二叉树 - 力扣（LeetCode）](https://leetcode.cn/problems/symmetric-tree/)
+
+算法实现: [examples/symmetricTree.ts](./examples/symmetricTree.ts)
+
+#### 700. 二叉搜索树中的搜索
+
+给定二叉搜索树（BST）的根节点 root 和一个整数值 val
+
+你需要在 BST 中找到节点值等于 val 的节点. 返回以该节点为根的子树 如果节点不存在, 则返回 null
+
+详细参见: [700. 二叉搜索树中的搜索 - 力扣（LeetCode）](https://leetcode.cn/problems/search-in-a-binary-search-tree/)
+
+算法实现: [examples/searchInABinarySearchTree.ts](./examples/searchInABinarySearchTree.ts)
+
+#### 116. 填充每个节点的下一个右侧节点指针
+
+给定一个 完美二叉树 , 其所有叶子节点都在同一层, 每个父节点都有两个子节点
+
+填充它的每个 next 指针, 让这个指针指向其下一个右侧节点. 如果找不到下一个右侧节点, 则将 next 指针设置为 NULL
+
+详细参见: [116. 填充每个节点的下一个右侧节点指针 - 力扣（LeetCode）](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)
+
+算法实现: [examples/populatingNextRightPointersInEachNode.ts](./examples/populatingNextRightPointersInEachNode.ts)
+
+#### 617. 合并二叉树
+
+详细参见: [617. 合并二叉树 - 力扣（LeetCode）](https://leetcode.cn/problems/merge-two-binary-trees/)
+
+算法实现: [examples/mergeTwoBinaryTrees.ts](./examples/mergeTwoBinaryTrees.ts)
+
+#### 235. 二叉搜索树的最近公共祖先
+
+详细参见: [235. 二叉搜索树的最近公共祖先 - 力扣（LeetCode）](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+
+算法实现: [examples/lowestCommonAncestor.ts](./examples/lowestCommonAncestor.ts)
+
+#### 226. 翻转二叉树
+
+给你一棵二叉树的根节点 root , 翻转这棵二叉树, 并返回其根节点
+
+详细参见: [226. 翻转二叉树 - 力扣（LeetCode）](https://leetcode.cn/problems/invert-binary-tree/)
+
+算法实现: [examples/invertBinaryTree.ts](./examples/invertBinaryTree.ts)
+
+#### 701. 二叉搜索树中的插入操作
+
+详细参见: [701. 二叉搜索树中的插入操作 - 力扣（LeetCode）](https://leetcode.cn/problems/insert-into-a-binary-search-tree/)
+
+算法实现: [examples/insertIntoABinarySearchTree.ts](./examples/insertIntoABinarySearchTree.ts)
+
+#### 112. 路径总和
+
+详细参见: [112. 路径总和 - 力扣（LeetCode）](https://leetcode.cn/problems/path-sum/)
+
+算法实现: [examples/hasPathSum.ts](./examples/hasPathSum.ts)
+
+#### 653. 两数之和 IV - 输入二叉搜索树
+
+详细参见: [653. 两数之和 IV - 输入二叉搜索树 - 力扣（LeetCode）](https://leetcode.cn/problems/two-sum-iv-input-is-a-bst/)
+
+算法实现: [examples/findTargetByBST.ts](./examples/findTargetByBST.ts)
