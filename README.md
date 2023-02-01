@@ -12,3 +12,6 @@
 
 1. [排序算法](./src/algorithms/sort/README.md)
 2. [缓存算法](./src/algorithms/cache/README.md)
+3. [DFS] -
+4. [BFS] -
+5. [动态规划](./src/algorithms/dp/README.md)
