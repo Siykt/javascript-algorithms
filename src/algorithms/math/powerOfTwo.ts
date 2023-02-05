@@ -12,3 +12,9 @@ export function powerOfTwo(n: number): boolean {
   }
   return true
 }
+
+export function powerOfTwoByBit(n: number): boolean {
+  // 位运算
+  if (n <= 0) return false
+  return !(n & (n - 1))
+}
