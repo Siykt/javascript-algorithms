@@ -18,3 +18,6 @@ coverage/
 **.local
 yarn.lock
 static/images/
+
+.temp
+.cache
