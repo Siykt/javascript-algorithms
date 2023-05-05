@@ -85,7 +85,7 @@
 
 详细参见: [144. 二叉树的前序遍历 - 力扣（LeetCode）](https://leetcode.cn/problems/binary-tree-preorder-traversal/))
 
-算法实现: [examples/PreorderTraversal.ts](./examples/PreorderTraversal.ts)
+算法实现: [examples/PreorderTraversal.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/Tree/examples/PreorderTraversal.ts)
 
 #### 中序遍历
 
@@ -93,7 +93,7 @@
 
 详细参见: [94. 二叉树的中序遍历 - 力扣（LeetCode）](https://leetcode.cn/problems/binary-tree-inorder-traversal/))
 
-算法实现: [examples/InorderTraversal.ts](./examples/InorderTraversal.ts)
+算法实现: [examples/InorderTraversal.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/Tree/examples/InorderTraversal.ts)
 
 #### 后序遍历
 
@@ -101,7 +101,7 @@
 
 详细参见: [94. 二叉树的后序遍历 - 力扣（LeetCode）](https://leetcode.cn/problems/binary-tree-postorder-traversal/))
 
-算法实现: [examples/PostorderTraversal.ts](./examples/PostorderTraversal.ts)
+算法实现: [examples/PostorderTraversal.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/Tree/examples/PostorderTraversal.ts)
 
 #### 层序遍历
 
@@ -109,7 +109,7 @@
 
 详细参见: [102. 二叉树的层序遍历 - 力扣（LeetCode）](https://leetcode.cn/problems/binary-tree-level-order-traversal/))
 
-算法实现: [examples/LevelOrder.ts](./examples/LevelOrder.ts)
+算法实现: [examples/LevelOrder.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/Tree/examples/LevelOrder.ts)
 
 ### 算法实例
 
@@ -125,7 +125,7 @@
 
 详细参见: [104. 二叉树的最大深度 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)
 
-算法实现: [examples/MaxDepth.ts](./examples/MaxDepth.ts)
+算法实现: [examples/MaxDepth.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/Tree/examples/MaxDepth.ts)
 
 #### 98. 验证二叉搜索树
 
@@ -139,7 +139,7 @@
 
 详细参见: [98. 验证二叉搜索树 - 力扣（LeetCode）](https://leetcode.cn/problems/validate-binary-search-tree/)
 
-算法实现: [examples/validateBinarySearchTree.ts](./examples/validateBinarySearchTree.ts)
+算法实现: [examples/validateBinarySearchTree.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/Tree/examples/validateBinarySearchTree.ts)
 
 #### 101. 对称二叉树
 
@@ -147,7 +147,7 @@
 
 详细参见: [101. 对称二叉树 - 力扣（LeetCode）](https://leetcode.cn/problems/symmetric-tree/)
 
-算法实现: [examples/symmetricTree.ts](./examples/symmetricTree.ts)
+算法实现: [examples/symmetricTree.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/Tree/examples/symmetricTree.ts)
 
 #### 700. 二叉搜索树中的搜索
 
@@ -157,7 +157,7 @@
 
 详细参见: [700. 二叉搜索树中的搜索 - 力扣（LeetCode）](https://leetcode.cn/problems/search-in-a-binary-search-tree/)
 
-算法实现: [examples/searchInABinarySearchTree.ts](./examples/searchInABinarySearchTree.ts)
+算法实现: [examples/searchInABinarySearchTree.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/Tree/examples/searchInABinarySearchTree.ts)
 
 #### 116. 填充每个节点的下一个右侧节点指针
 
@@ -167,19 +167,19 @@
 
 详细参见: [116. 填充每个节点的下一个右侧节点指针 - 力扣（LeetCode）](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)
 
-算法实现: [examples/populatingNextRightPointersInEachNode.ts](./examples/populatingNextRightPointersInEachNode.ts)
+算法实现: [examples/populatingNextRightPointersInEachNode.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/Tree/examples/populatingNextRightPointersInEachNode.ts)
 
 #### 617. 合并二叉树
 
 详细参见: [617. 合并二叉树 - 力扣（LeetCode）](https://leetcode.cn/problems/merge-two-binary-trees/)
 
-算法实现: [examples/mergeTwoBinaryTrees.ts](./examples/mergeTwoBinaryTrees.ts)
+算法实现: [examples/mergeTwoBinaryTrees.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/Tree/examples/mergeTwoBinaryTrees.ts)
 
 #### 235. 二叉搜索树的最近公共祖先
 
 详细参见: [235. 二叉搜索树的最近公共祖先 - 力扣（LeetCode）](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
-算法实现: [examples/lowestCommonAncestor.ts](./examples/lowestCommonAncestor.ts)
+算法实现: [examples/lowestCommonAncestor.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/Tree/examples/lowestCommonAncestor.ts)
 
 #### 226. 翻转二叉树
 
@@ -187,22 +187,22 @@
 
 详细参见: [226. 翻转二叉树 - 力扣（LeetCode）](https://leetcode.cn/problems/invert-binary-tree/)
 
-算法实现: [examples/invertBinaryTree.ts](./examples/invertBinaryTree.ts)
+算法实现: [examples/invertBinaryTree.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/Tree/examples/invertBinaryTree.ts)
 
 #### 701. 二叉搜索树中的插入操作
 
 详细参见: [701. 二叉搜索树中的插入操作 - 力扣（LeetCode）](https://leetcode.cn/problems/insert-into-a-binary-search-tree/)
 
-算法实现: [examples/insertIntoABinarySearchTree.ts](./examples/insertIntoABinarySearchTree.ts)
+算法实现: [examples/insertIntoABinarySearchTree.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/Tree/examples/insertIntoABinarySearchTree.ts)
 
 #### 112. 路径总和
 
 详细参见: [112. 路径总和 - 力扣（LeetCode）](https://leetcode.cn/problems/path-sum/)
 
-算法实现: [examples/hasPathSum.ts](./examples/hasPathSum.ts)
+算法实现: [examples/hasPathSum.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/Tree/examples/hasPathSum.ts)
 
 #### 653. 两数之和 IV - 输入二叉搜索树
 
 详细参见: [653. 两数之和 IV - 输入二叉搜索树 - 力扣（LeetCode）](https://leetcode.cn/problems/two-sum-iv-input-is-a-bst/)
 
-算法实现: [examples/findTargetByBST.ts](./examples/findTargetByBST.ts)
+算法实现: [examples/findTargetByBST.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/Tree/examples/findTargetByBST.ts)
