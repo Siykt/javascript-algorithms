@@ -30,13 +30,13 @@
 
 链表中最简单的一种是单向链表 (又名单链表、线性链表) , 其特点是链表的链接方向是单向的而最后一个节点则指向一个空值. 对链表的访问要通过从头部开始, 依序往下读取
 
-实现参考: [SingleLinkedList.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/LinkedListSingleLinkedList.ts)
+实现参考: [SingleLinkedList.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/LinkedList/SingleLinkedList.ts)
 
 ### 双向链表
 
 双向链表与单向链表的差异就在于其链接域保存的指针有两个, 一个指向上一个节点(前驱), 一个指向下一个节点(后继), 所以, 从双向链表中的任意一个结点开始, 都可以很方便地访问它的前驱结点和后继结点
 
-实现参考: [DoubleLinkedList.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/LinkedListDoubleLinkedList.ts)
+实现参考: [DoubleLinkedList.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/LinkedList/DoubleLinkedList.ts)
 
 ## 实例
 
