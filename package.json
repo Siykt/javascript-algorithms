@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "mini-games-serve",
   "main": "index.ts",
-  "author": "siykt <siykt@outlook.com> (https://github.com/siykt)",
+  "author": "siykt <cnsiykt@163.com> (https://github.com/siykt)",
   "private": "true",
   "scripts": {
     "build": "rimraf dist && tsc",
@@ -40,6 +40,6 @@
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^3.9.0",
     "typescript": "^4.6.4",
-    "vitepress": "1.0.0-alpha.65"
+    "vitepress": "1.0.0-alpha.75"
   }
 }
