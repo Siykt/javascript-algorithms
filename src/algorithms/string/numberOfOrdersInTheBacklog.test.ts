@@ -1,9 +1,9 @@
-import { getNumberOfBacklogOrders } from './getNumberOfBacklogOrders'
+import { numberOfOrdersInTheBacklog } from './numberOfOrdersInTheBacklog'
 
 describe('积压订单中的订单总数', () => {
   test('[[10,5,0],[15,2,1],[25,1,1],[30,4,0]]', () => {
     expect(
-      getNumberOfBacklogOrders([
+      numberOfOrdersInTheBacklog([
         [10, 5, 0],
         [15, 2, 1],
         [25, 1, 1],
@@ -13,7 +13,7 @@ describe('积压订单中的订单总数', () => {
   })
   test('[[7,1000000000,1],[15,3,0],[5,999999995,0],[5,1,1]]', () => {
     expect(
-      getNumberOfBacklogOrders([
+      numberOfOrdersInTheBacklog([
         [7, 1000000000, 1],
         [15, 3, 0],
         [5, 999999995, 0],
@@ -24,7 +24,7 @@ describe('积压订单中的订单总数', () => {
 
   test('[[1,29,1],[22,7,1],[24,1,0],[25,15,1],[18,8,1],[8,22,0],[25,15,1],[30,1,1],[27,30,0]]', () => {
     expect(
-      getNumberOfBacklogOrders([
+      numberOfOrdersInTheBacklog([
         [1, 29, 1],
         [22, 7, 1],
         [24, 1, 0],
@@ -40,7 +40,7 @@ describe('积压订单中的订单总数', () => {
 
   test('[[27,30,0],[10,10,1],[28,17,1],[19,28,0],[16,8,1],[14,22,0],[12,18,1],[3,15,0],[25,6,1]]', () => {
     expect(
-      getNumberOfBacklogOrders([
+      numberOfOrdersInTheBacklog([
         [27, 30, 0],
         [10, 10, 1],
         [28, 17, 1],
@@ -56,7 +56,7 @@ describe('积压订单中的订单总数', () => {
 
   test('[[30,27,1],[18,9,1],[11,4,0],[21,11,0],[1,1,1],[24,20,1],[15,13,1],[13,3,0],[30,11,1]]', () => {
     expect(
-      getNumberOfBacklogOrders([
+      numberOfOrdersInTheBacklog([
         [30, 27, 1],
         [18, 9, 1],
         [11, 4, 0],
@@ -72,7 +72,7 @@ describe('积压订单中的订单总数', () => {
 
   test('[[10,5,0],[15,2,1],[25,1,1],[30,4,0]]', () => {
     expect(
-      getNumberOfBacklogOrders([
+      numberOfOrdersInTheBacklog([
         [10, 5, 0],
         [15, 2, 1],
         [25, 1, 1],
@@ -83,7 +83,7 @@ describe('积压订单中的订单总数', () => {
 
   test('[[12,16,1],[28,4,0],[19,29,1],[7,10,0],[29,26,0],[4,19,0],[18,10,0],[3,17,1],[19,26,1]]', () => {
     expect(
-      getNumberOfBacklogOrders([
+      numberOfOrdersInTheBacklog([
         [12, 16, 1],
         [28, 4, 0],
         [19, 29, 1],

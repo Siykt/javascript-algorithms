@@ -1,5 +1,5 @@
 /**
- * 最长公共前缀
+ * 14. 最长公共前缀
  * @param strs 字符串数组
  */
 export function longestCommonPrefix(strs: string[]): string {

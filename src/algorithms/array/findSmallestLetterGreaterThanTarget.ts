@@ -1,3 +1,8 @@
+/**
+ * 744. 寻找比目标字母大的最小字母
+ * @param letters 小写字母组合
+ * @param target 小写字母
+ */
 export function findSmallestLetterGreaterThanTarget(letters: string[], target: string): string {
   // 思路: 二分
   let left = 0

@@ -1,8 +1,8 @@
 /**
- * 删除有序数组中的重复项
+ * 26. 删除有序数组中的重复项
  * @param nums 数组
  */
-export function removeDuplicates(nums: number[]): number {
+export function removeDuplicatesFromSortedArray(nums: number[]): number {
   const len = nums.length
   // 边界处理
   if (len < 2) return len

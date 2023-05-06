@@ -1,6 +1,6 @@
 import { longestCommonPrefix } from './longestCommonPrefix'
 
-describe('最长公共前缀', () => {
+describe('14. 最长公共前缀', () => {
   test('["", "b"]', () => {
     expect(longestCommonPrefix(['', 'b'])).toBe('')
   })

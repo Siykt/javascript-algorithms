@@ -12,7 +12,7 @@ function findPalindrome(s: string, left: number, right: number) {
 }
 
 /**
- * 最长回文子串
+ * 5. 最长回文子串
  * @description 中心扩散
  * @param s 字符串
  */

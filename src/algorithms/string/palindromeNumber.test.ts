@@ -1,4 +1,8 @@
-import { isPalindromeByDoublePoint, isPalindromeByRevertedNumber, isPalindromeByRevertedString } from './isPalindrome'
+import {
+  isPalindromeByDoublePoint,
+  isPalindromeByRevertedNumber,
+  isPalindromeByRevertedString,
+} from './palindromeNumber'
 
 const testMap = [121, -121, 10, 0, 1, 12321, 123321, 1234321, 123454321]
 const resultMap = [true, false, false, true, true, true, true, true, true]

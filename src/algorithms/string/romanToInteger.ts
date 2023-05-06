@@ -10,10 +10,10 @@ const ROMAN_NUM_HASH: Record<string, number> = {
 }
 
 /**
- * 罗马数字转整数
+ * 13. 罗马数字转整数
  * @param s 罗马字符串
  */
-export function romanToInt(s: string): number {
+export function romanToInteger(s: string): number {
   const len = s.length
   let res = 0
   for (let i = 0; i < len; i++) {

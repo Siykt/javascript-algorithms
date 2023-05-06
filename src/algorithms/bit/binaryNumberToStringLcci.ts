@@ -3,7 +3,7 @@
  * @param num 数字
  * @returns
  */
-export function binaryNumberToString(num: number): string {
+export function binaryNumberToStringLcci(num: number): string {
   // 模拟
   const ans = ['0.']
   let i = 0

@@ -1,5 +1,6 @@
 /**
- * 三数之和
+ * 15. 三数之和
+ * @description 3sum
  * @param nums 数字数组
  */
 export function threeSum(nums: number[]): number[][] {

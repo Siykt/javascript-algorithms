@@ -1,9 +1,9 @@
 /**
- * 寻找两个正序数组的中位数
+ * 4. 寻找两个正序数组的中位数
  * @param nums1 数组1
  * @param nums2 数组2
  */
-export function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
+export function medianOfTwoSortedArrays(nums1: number[], nums2: number[]): number {
   const allLen = nums1.length + nums2.length
   // 边界情况
   if (!allLen) return 0

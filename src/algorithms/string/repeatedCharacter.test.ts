@@ -1,6 +1,6 @@
 import { repeatedCharacter } from './repeatedCharacter'
 
-describe('第一个出现两次的字母', () => {
+describe('2351. 第一个出现两次的字母', () => {
   it('abaccdeff', () => {
     expect(repeatedCharacter('abaccdeff')).toBe('a')
   })

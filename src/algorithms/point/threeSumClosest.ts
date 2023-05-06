@@ -1,3 +1,9 @@
+/**
+ * 16. 最接近的三数之和
+ * @description 3sum-closest
+ * @param nums 整数数组
+ * @param target 目标值
+ */
 export function threeSumClosest(nums: number[], target: number): number {
   let res = Infinity
   const len = nums.length

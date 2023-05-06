@@ -1,4 +1,8 @@
-export function isValidSudoku(board: string[][]): boolean {
+/**
+ * 36. 有效的数独
+ * @param board 棋盘
+ */
+export function validSudoku(board: string[][]): boolean {
   // 思路: 暴力检查
   // 1. 输入数据borad是一个 9x9 的二维矩阵
   // 2. 主要难点为如何获值的: 9宫格/行/列

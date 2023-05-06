@@ -1,6 +1,6 @@
 import { twoOutOfThree } from './twoOutOfThree'
 
-describe('至少在两个数组中出现的值', () => {
+describe('2032. 至少在两个数组中出现的值', () => {
   test('[1, 1, 3, 2], [2, 3], [3]', () => {
     expect(twoOutOfThree([1, 1, 3, 2], [2, 3], [3])).toEqual(expect.arrayContaining([3, 2]))
   })

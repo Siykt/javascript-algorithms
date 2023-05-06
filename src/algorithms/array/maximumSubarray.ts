@@ -1,5 +1,5 @@
 /**
- * 最大子数组和
+ * 53. 最大子数组和
  * @param nums 数组
  */
 export function maximumSubarray(nums: number[]): number {

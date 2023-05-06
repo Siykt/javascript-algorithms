@@ -1,5 +1,5 @@
 /**
- *  189. 轮转数组
+ * 189. 轮转数组
  * @description 使用拼接数组处理
  * @param nums 数组
  * @param k 轮转值

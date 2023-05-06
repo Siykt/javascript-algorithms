@@ -1,6 +1,6 @@
 import { longestPalindromeByExpandAroundCenter } from './longestPalindrome'
 
-describe('最长回文子串', () => {
+describe('5. 最长回文子串', () => {
   test('babad', () => {
     expect(longestPalindromeByExpandAroundCenter('babad')).toBe('bab')
   })

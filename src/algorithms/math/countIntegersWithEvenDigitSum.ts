@@ -1,5 +1,5 @@
 /**
- * 统计各位数字之和为偶数的整数个数
+ * 2180. 统计各位数字之和为偶数的整数个数
  * @param num 数字
  */
 export function countIntegersWithEvenDigitSum(num: number) {

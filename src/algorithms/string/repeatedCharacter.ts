@@ -1,5 +1,5 @@
 /**
- * 第一个出现两次的字母
+ * 2351. 第一个出现两次的字母
  * @param s 字符串
  */
 export function repeatedCharacter(s: string) {

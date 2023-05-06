@@ -1,8 +1,8 @@
 /**
- * 检查句子中的数字是否递增
+ * 2042. 检查句子中的数字是否递增
  * @param s 字符串
  */
-export function areNumbersAscending(s: string): boolean {
+export function checkIfNumbersAreAscendingInASentence(s: string): boolean {
   let min = 0
   const len = s.length
   for (let i = 0; i < len; i++) {

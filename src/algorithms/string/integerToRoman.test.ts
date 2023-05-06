@@ -1,4 +1,4 @@
-import { intToRomanByGreedy, intToRomanByPoint } from './intToRoman'
+import { intToRomanByGreedy, intToRomanByPoint } from './integerToRoman'
 
 describe('整数转罗马数字 单指针', () => {
   test('III', () => {

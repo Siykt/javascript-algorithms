@@ -1,5 +1,5 @@
 /**
- * Z 字形变换
+ * 6. N 字形变换
  * @param s 字符串
  * @param numRows 行数
  */

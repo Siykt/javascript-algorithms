@@ -16,10 +16,10 @@ const insert = (arr: RN, [price, amount]: [number, number], desc: boolean) => {
 }
 
 /**
- * 积压订单中的订单总数
+ * 1801. 积压订单中的订单总数
  * @param orders 订单
  */
-export function getNumberOfBacklogOrders(orders: number[][]): number {
+export function numberOfOrdersInTheBacklog(orders: number[][]): number {
   let res = 0
   // 采购积压订单
   const buys: RN = []
