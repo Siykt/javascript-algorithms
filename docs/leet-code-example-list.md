@@ -72,6 +72,8 @@
 
 - [1828. 统计一个圆中点的数目](https://leetcode.cn/problems/queries-on-number-of-points-inside-a-circle) -- 实现源码: [queriesOnNumberOfPointsInsideACircle.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/queriesOnNumberOfPointsInsideACircle.ts)
 
+- [27. 移除元素](https://leetcode.cn/problems/remove-element) -- 实现源码: [removeElement.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/removeElement.ts)
+
 - [1233. 删除子文件夹](https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem) -- 实现源码: [removeSubFoldersFromTheFilesystem.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/removeSubFoldersFromTheFilesystem.ts)
 
 - [344. 反转字符串](https://leetcode.cn/problems/reverse-string) -- 实现源码: [reverseString.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/reverseString.ts)
