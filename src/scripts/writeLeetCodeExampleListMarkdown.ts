@@ -68,11 +68,14 @@ export default async function writeLeetCodeExampleListMarkdown() {
     `${DEFAULT_CONTENT}\n${comments
       .map((comment) => {
         const title = `## ${comment.type[0].toUpperCase() + comment.type.slice(1)}`
-        const content = comment.data.map((item) => {
-          return `- [${item.name}](${item.leetCodeLink}) -- 实现源码: [${item.src}](${item.githubLink})\n`
-        })
+        const content = comment.data
+          .sort((a, b) => parseInt(a.name) - parseInt(b.name))
+          .map((item) => {
+            return `- [${item.name}](${item.leetCodeLink}) -- 实现源码: [${item.src}](${item.githubLink})\n`
+          })
         return `${title}\n\n${content.join('\n')}`
       })
       .join('\n')}`,
   )
 }
+writeLeetCodeExampleListMarkdown()
