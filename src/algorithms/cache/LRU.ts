@@ -1,11 +1,11 @@
 // 双向链表, 用于实现插入 O(1), 删除 O(1)
-class LinkedNode<Data = any> {
-  val: Data
-  key: string
-  next: LinkedNode<Data> | null
-  pre: LinkedNode<Data> | null
+class LinkedNode {
+  val: number
+  key: number
+  next: LinkedNode | null
+  pre: LinkedNode | null
 
-  constructor(key: string, val: Data) {
+  constructor(key: number, val: number) {
     this.val = val
     this.key = key
     this.next = null
@@ -14,15 +14,15 @@ class LinkedNode<Data = any> {
 }
 
 // LRU缓存算法
-export default class LRU<Data = any> {
-  // 保存最早的数据也就是即将删除的数据
-  private head = new LinkedNode<Data | null>('__head__', null)
-
+export default class LRUCache {
   // 保存最新的数据
-  private tail = new LinkedNode<Data | null>('__tail__', null)
+  private head: LinkedNode | null = null
+
+  // 保存最早的数据也就是即将删除的数据
+  private tail: LinkedNode | null = null
 
   // HashMap, 用于实现读取 O(1), 提升缓存项随机访问性能
-  private hashmap: Record<string, LinkedNode<Data>> = {}
+  private hashmap: Record<number, LinkedNode> = {}
   private length = 0
 
   constructor(
@@ -30,21 +30,19 @@ export default class LRU<Data = any> {
     private capacity: number,
   ) {
     if (capacity <= 0) throw TypeError('无效容量')
-    this.head.next = this.tail
-    this.tail.pre = this.head
   }
 
   /**
    * 从缓存中获取key对应的值，若未命中则返回 null
    * @param key 键
    */
-  get(key: string) {
+  get(key: number) {
     const entry = this.hashmap[key]
     if (entry) {
-      this.popToTail(entry)
+      this.exchangeToHead(entry)
       return entry.val
     }
-    return null
+    return -1
   }
 
   /**
@@ -53,7 +51,7 @@ export default class LRU<Data = any> {
    * @param value 值
    * @returns
    */
-  put(key: string, value: Data) {
+  put(key: number, value: number) {
     let isAdd = false
     let entry = this.hashmap[key]
     // 判断是否为更新
@@ -62,42 +60,44 @@ export default class LRU<Data = any> {
       entry = new LinkedNode(key, value)
     }
     entry.val = value
-    this.popToTail(entry)
+    this.exchangeToHead(entry)
     this.hashmap[key] = entry
     // 移除多余长度的head
-    if (!isAdd) return
+    if (!isAdd || !this.tail) return
     if (this.length === this.capacity) {
-      const needDelHead = this.head
-      if (needDelHead.next) {
-        needDelHead.next.pre = null
-        this.head = needDelHead.next
+      delete this.hashmap[this.tail.key]
+      if (this.tail.pre) {
+        this.tail.pre.next = null
+        this.tail = this.tail.pre
       }
-      delete this.hashmap[needDelHead.key]
     } else {
       this.length++
     }
   }
 
   /**
-   * 将结点移动到tail
+   * 将结点移动至head
    * @param node 节点
    * @returns
    */
-  private popToTail(node: LinkedNode<Data | null>) {
-    // 更新缓存的位置至tail
-    const nodePre = node.pre
-    // 删除node
-    if (nodePre) {
-      nodePre.pre = node.next
-    }
-    // 插入node至tail
-    this.tail.next = node
-    node.pre = this.tail
-    // 更新head
-    if (this.tail.pre?.key === '__head__') {
+  private exchangeToHead(node: LinkedNode) {
+    if (node === this.head) return
+    if (!this.head) {
       this.head = node
+      this.tail = node
+      return
     }
+    // 移除node
+    const pre = node.pre
+    pre && (pre.next = node.next)
+    node.next && (node.next.pre = pre)
+    // 更新node至head
+    node.next = this.head
+    this.head.pre = node
+    this.head = node
     // 更新tail
-    this.tail = node
+    if (node === this.tail) {
+      this.tail = pre
+    }
   }
 }
