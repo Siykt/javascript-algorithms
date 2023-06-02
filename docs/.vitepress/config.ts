@@ -15,6 +15,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'LeetCode 题例', link: '/leet-code-example-list' },
+      { text: 'Siykt博客', link: 'https://www.antpro.me/' },
     ],
     sidebar: [
       {
