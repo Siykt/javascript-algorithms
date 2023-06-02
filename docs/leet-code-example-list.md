@@ -158,6 +158,10 @@
 
 - [26. 删除有序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array) -- 实现源码: [removeDuplicatesFromSortedArray.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/point/removeDuplicatesFromSortedArray.ts)
 
+## PrefixSum
+
+- [2559. 统计范围内的元音字符串数](https://leetcode.cn/problems/count-vowel-strings-in-ranges) -- 实现源码: [countVowelStringsInRanges.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/prefixSum/countVowelStringsInRanges.ts)
+
 ## Stack
 
 - [232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks) -- 实现源码: [implementQueueUsingStacks.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/stack/implementQueueUsingStacks.ts)
