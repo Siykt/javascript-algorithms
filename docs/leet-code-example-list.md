@@ -28,6 +28,8 @@
 
 - [167. 两数之和 II - 输入有序数组](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted) -- 实现源码: [twoSumIiInputArrayIsSorted.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/twoSumIiInputArrayIsSorted.ts)
 
+- [169. 多数元素](https://leetcode.cn/problems/majority-element) -- 实现源码: [majorityElement.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/majorityElement.ts)
+
 - [189. 轮转数组](https://leetcode.cn/problems/rotate-array) -- 实现源码: [rotateArray.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/rotateArray.ts)
 
 - [217. 存在重复元素](https://leetcode.cn/problems/contains-duplicate) -- 实现源码: [containsDuplicate.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/containsDuplicate.ts)
