@@ -25,6 +25,8 @@ async function getComments(): Promise<
               'https://leetcode.cn/problems/' +
               filepath
                 .replace(/^.+\\(.+).ts$/g, '$1')
+                .replace(/([I]{2,})/g, (match) => '-' + match.toLowerCase())
+                .replace(/(?<!^)([A-Z])(\d)/g, '$1-$2')
                 .replace(/(?<!^)([A-Z])/g, '-$1')
                 .toLowerCase()
             const buffer = await readFile(filepath)
