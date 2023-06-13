@@ -12,6 +12,8 @@
 
 - [27. 移除元素](https://leetcode.cn/problems/remove-element) -- 实现源码: [removeElement.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/removeElement.ts)
 
+- [33. 搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array) -- 实现源码: [searchInRotatedSortedArray.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/searchInRotatedSortedArray.ts)
+
 - [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array) -- 实现源码: [findFirstAndLastPositionOfElementInSortedArray.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/findFirstAndLastPositionOfElementInSortedArray.ts)
 
 - [35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position) -- 实现源码: [searchInsertPosition.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/searchInsertPosition.ts)
