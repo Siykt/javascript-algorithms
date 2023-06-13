@@ -22,6 +22,8 @@
 
 - [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray) -- 实现源码: [maximumSubarray.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/maximumSubarray.ts)
 
+- [74. 搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix) -- 实现源码: [searchA2dMatrix.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/searchA2dMatrix.ts)
+
 - [88. 合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array) -- 实现源码: [mergeSortedArray.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/mergeSortedArray.ts)
 
 - [118. 杨辉三角](https://leetcode.cn/problems/pascals-triangle) -- 实现源码: [pascalsTriangle.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/pascalsTriangle.ts)
@@ -40,11 +42,11 @@
 
 - [344. 反转字符串](https://leetcode.cn/problems/reverse-string) -- 实现源码: [reverseString.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/reverseString.ts)
 
-- [350. 两个数组的交集 II](https://leetcode.cn/problems/intersection-of-two-arrays-i-i) -- 实现源码: [intersectionOfTwoArraysII.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/intersectionOfTwoArraysII.ts)
+- [350. 两个数组的交集 II](https://leetcode.cn/problems/intersection-of-two-arrays-ii) -- 实现源码: [intersectionOfTwoArraysII.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/intersectionOfTwoArraysII.ts)
 
 - [542. 01 矩阵](https://leetcode.cn/problems/update-matrix) -- 实现源码: [updateMatrix.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/updateMatrix.ts)
 
-- [557. 反转字符串中的单词 III](https://leetcode.cn/problems/reverse-words-in-a-string-i-i-i) -- 实现源码: [reverseWordsInAStringIII.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/reverseWordsInAStringIII.ts)
+- [557. 反转字符串中的单词 III](https://leetcode.cn/problems/reverse-words-in-a-string-iii) -- 实现源码: [reverseWordsInAStringIII.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/reverseWordsInAStringIII.ts)
 
 - [566. 重塑矩阵](https://leetcode.cn/problems/matrix-reshape) -- 实现源码: [matrixReshape.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/matrixReshape.ts)
 
@@ -210,7 +212,7 @@
 
 - [2287. 重排字符形成目标字符串](https://leetcode.cn/problems/rearrange-characters-to-make-target-string) -- 实现源码: [rearrangeCharactersToMakeTargetString.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/string/rearrangeCharactersToMakeTargetString.ts)
 
-- [2299. 强密码检验器 II](https://leetcode.cn/problems/strong-password-checker-i-i) -- 实现源码: [strongPasswordCheckerII.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/string/strongPasswordCheckerII.ts)
+- [2299. 强密码检验器 II](https://leetcode.cn/problems/strong-password-checker-ii) -- 实现源码: [strongPasswordCheckerII.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/string/strongPasswordCheckerII.ts)
 
 - [2309. 兼具大小写的最好英文字母](https://leetcode.cn/problems/greatest-english-letter-in-upper-and-lower-case) -- 实现源码: [greatestEnglishLetterInUpperAndLowerCase.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/string/greatestEnglishLetterInUpperAndLowerCase.ts)
 
