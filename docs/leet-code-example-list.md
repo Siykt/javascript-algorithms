@@ -116,7 +116,7 @@
 
 - [190. 颠倒二进制位](https://leetcode.cn/problems/reverse-bits) -- 实现源码: [reverseBits.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/bit/reverseBits.ts)
 
-- [191. 位1的个数](https://leetcode.cn/problems/hamming-weight) -- 实现源码: [hammingWeight.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/bit/hammingWeight.ts)
+- [191. 位 1 的个数](https://leetcode.cn/problems/hamming-weight) -- 实现源码: [hammingWeight.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/bit/hammingWeight.ts)
 
 ## Dp
 

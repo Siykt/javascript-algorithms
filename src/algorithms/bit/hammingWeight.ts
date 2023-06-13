@@ -1,5 +1,5 @@
 /**
- * 191. 位1的个数
+ * 191. 位 1 的个数
  * @param n 数
  */
 export function hammingWeight(n: number): number {
