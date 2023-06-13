@@ -30,6 +30,8 @@
 
 - [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock) -- 实现源码: [bestTimeToBuyAndSellStock.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/bestTimeToBuyAndSellStock.ts)
 
+- [153. 寻找旋转排序数组中的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array) -- 实现源码: [findMinimumInRotatedSortedArray.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/findMinimumInRotatedSortedArray.ts)
+
 - [167. 两数之和 II - 输入有序数组](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted) -- 实现源码: [twoSumIiInputArrayIsSorted.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/twoSumIiInputArrayIsSorted.ts)
 
 - [169. 多数元素](https://leetcode.cn/problems/majority-element) -- 实现源码: [majorityElement.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/majorityElement.ts)
