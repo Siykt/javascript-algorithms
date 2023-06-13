@@ -65,6 +65,10 @@ const DEFAULT_CONTENT = `# LeetCode 题例
  */
 export default async function writeLeetCodeExampleListMarkdown() {
   const comments = await getComments()
+  console.log(
+    '💯 已完成:',
+    comments.reduce((total, comment) => total + comment.data.length, 0),
+  )
   await writeFile(
     path.join(__dirname, '../../docs/leet-code-example-list.md'),
     `${DEFAULT_CONTENT}\n${comments
