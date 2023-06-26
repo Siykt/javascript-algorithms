@@ -116,6 +116,8 @@
 
 - [面试题 05.02. 二进制数转字符串](https://leetcode.cn/problems/binary-number-to-string-lcci) -- 实现源码: [binaryNumberToStringLcci.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/bit/binaryNumberToStringLcci.ts)
 
+- [50. Pow(x, n)](https://leetcode.cn/problems/powx-n) -- 实现源码: [powxN.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/bit/powxN.ts)
+
 - [136. 只出现一次的数字](https://leetcode.cn/problems/single-number) -- 实现源码: [singleNumber.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/bit/singleNumber.ts)
 
 - [190. 颠倒二进制位](https://leetcode.cn/problems/reverse-bits) -- 实现源码: [reverseBits.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/bit/reverseBits.ts)
