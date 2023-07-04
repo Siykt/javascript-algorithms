@@ -104,6 +104,8 @@
 
 - [2404. 出现最频繁的偶数元素](https://leetcode.cn/problems/most-frequent-even-element) -- 实现源码: [mostFrequentEvenElement.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/mostFrequentEvenElement.ts)
 
+- [2679. 矩阵中的和](https://leetcode.cn/problems/sum-in-a-matrix) -- 实现源码: [sumInAMatrix.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/array/sumInAMatrix.ts)
+
 ## BackTracking
 
 - [17. 电话号码的字母组合](https://leetcode.cn/problems/letter-combinations) -- 实现源码: [letterCombinations.ts](https://github.com/Siykt/javascript-algorithms/blob/master/src/algorithms/backTracking/letterCombinations.ts)
