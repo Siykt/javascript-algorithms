@@ -27,6 +27,13 @@ describe('getChinesePrice', () => {
     expect(getChinesePrice(1234567)).toBe('壹佰贰拾叁万肆仟伍佰陆拾柒元整')
     expect(getChinesePrice(12345678)).toBe('壹仟贰佰叁拾肆万伍仟陆佰柒拾捌元整')
     expect(getChinesePrice(123456789)).toBe('壹亿贰仟叁佰肆拾伍万陆仟柒佰捌拾玖元整')
+    expect(getChinesePrice(123456709)).toBe('壹亿贰仟叁佰肆拾伍万陆仟柒佰零玖元整')
+    expect(getChinesePrice(123456009)).toBe('壹亿贰仟叁佰肆拾伍万陆仟零玖元整')
+    expect(getChinesePrice(123450009)).toBe('壹亿贰仟叁佰肆拾伍万零玖元整')
+    expect(getChinesePrice(123400009)).toBe('壹亿贰仟叁佰肆拾万零玖元整')
+    expect(getChinesePrice(123000009)).toBe('壹亿贰仟叁佰万零玖元整')
+    expect(getChinesePrice(120000009)).toBe('壹亿贰仟万零玖元整')
+    expect(getChinesePrice(100000009)).toBe('壹亿零玖元整')
   })
 
   test('测试小数', () => {
