@@ -1,28 +1,28 @@
 // 双向链表, 用于实现插入 O(1), 删除 O(1)
-class LinkedNode {
-  val: number
-  key: number
-  next: LinkedNode | null
-  pre: LinkedNode | null
+class LinkedNode<K, V> {
+  key: K
+  val: V
+  next: LinkedNode<K, V> | null
+  pre: LinkedNode<K, V> | null
 
-  constructor(key: number, val: number) {
-    this.val = val
+  constructor(key: K, val: V) {
     this.key = key
+    this.val = val
     this.next = null
     this.pre = null
   }
 }
 
 // LRU缓存算法
-export default class LRUCache {
+export default class LRUCache<K extends string | number | bigint, V> {
   // 保存最新的数据
-  private head: LinkedNode | null = null
+  private head: LinkedNode<K, V> | null = null
 
   // 保存最早的数据也就是即将删除的数据
-  private tail: LinkedNode | null = null
+  private tail: LinkedNode<K, V> | null = null
 
   // HashMap, 用于实现读取 O(1), 提升缓存项随机访问性能
-  private hashmap: Record<number, LinkedNode> = {}
+  private hashmap = new Map<K, LinkedNode<K, V>>()
   private length = 0
 
   constructor(
@@ -36,36 +36,33 @@ export default class LRUCache {
    * 从缓存中获取key对应的值，若未命中则返回 null
    * @param key 键
    */
-  get(key: number) {
-    const entry = this.hashmap[key]
+  get(key: K) {
+    const entry = this.hashmap.get(key)
     if (entry) {
       this.exchangeToHead(entry)
       return entry.val
     }
-    return -1
+    return null
   }
 
   /**
    * 向缓存中插入或更新值
    * @param key 键
    * @param value 值
-   * @returns
    */
-  put(key: number, value: number) {
-    let isAdd = false
-    let entry = this.hashmap[key]
-    // 判断是否为更新
-    if (!entry) {
-      isAdd = true
-      entry = new LinkedNode(key, value)
-    }
+  put(key: K, value: V) {
+    const isAdd = !this.has(key)
+    const entry = this.hashmap.get(key) ?? new LinkedNode(key, value)
+
     entry.val = value
     this.exchangeToHead(entry)
-    this.hashmap[key] = entry
-    // 移除多余长度的head
+    this.hashmap.set(key, entry)
+
     if (!isAdd || !this.tail) return
+
+    // 移除多余长度的head
     if (this.length === this.capacity) {
-      delete this.hashmap[this.tail.key]
+      this.hashmap.delete(this.tail.key)
       if (this.tail.pre) {
         this.tail.pre.next = null
         this.tail = this.tail.pre
@@ -76,11 +73,40 @@ export default class LRUCache {
   }
 
   /**
+   * 从缓存中删除key对应的值
+   * @param key 键
+   */
+  del(key: K) {
+    const entry = this.hashmap.get(key)
+    if (!entry) return
+    this.hashmap.delete(key)
+    if (entry.pre) {
+      entry.pre.next = entry.next
+    }
+    if (entry.next) {
+      entry.next.pre = entry.pre
+    }
+    if (entry === this.head) {
+      this.head = entry.next
+    }
+    if (entry === this.tail) {
+      this.tail = entry.pre
+    }
+  }
+
+  /**
+   * 判断缓存中是否存在key
+   * @param key 键
+   */
+  has(key: K) {
+    return this.hashmap.has(key)
+  }
+
+  /**
    * 将结点移动至head
    * @param node 节点
-   * @returns
    */
-  private exchangeToHead(node: LinkedNode) {
+  private exchangeToHead(node: LinkedNode<K, V>) {
     if (node === this.head) return
     if (!this.head) {
       this.head = node
@@ -88,15 +114,18 @@ export default class LRUCache {
       return
     }
     // 移除node
-    const pre = node.pre
-    pre && (pre.next = node.next)
-    node.next && (node.next.pre = pre)
+    const { pre, next } = node
+    if (pre) pre.next = next
+    if (next) next.pre = pre
+
     // 更新node至head
+    node.pre = null
     node.next = this.head
     this.head.pre = node
     this.head = node
+
     // 更新tail
-    if (node === this.tail) {
+    if (node === this.tail && pre) {
       this.tail = pre
     }
   }
